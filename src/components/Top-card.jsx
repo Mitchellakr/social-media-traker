@@ -11,7 +11,7 @@ export default function Topcard(props) {
                 <h2>{props.followers}</h2>
                 <p>FOLLOWERS</p>
                 <div className="rate flex">
-                    {/* {props.arrow} */}
+                    {props.arrow}
                     {props.rate}
                     <p>Today</p>
                 </div>
