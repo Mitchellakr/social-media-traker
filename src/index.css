@@ -84,15 +84,21 @@ code {
   padding: 1em 0;
   font-weight: bold;
   color: var(--Lime-Green);
-  /* gap: .5em; */
+  gap: .3em;
 }
 
 .top-card {
   text-align: center;
   padding: 1em;
-  background-color: var(--Light-Grayish-Blue);
+  background-color: var(--Very-Pale-Blue);
   border-radius: 4px;
   border-top: 4px solid var(--Facebook);
+  cursor: pointer;
+  transition: .5s all ease;
+}
+
+.top-card:hover {
+  background-color: var(--Light-Grayish-Blue);
 }
 
 .top-card-content {
